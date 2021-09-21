@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "399937982682",
+    "firebase_url": "https://mychatapp-5362b.firebaseio.com",
+    "project_id": "mychatapp-5362b",
+    "storage_bucket": "mychatapp-5362b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399937982682:android:355650cf1baabe6a1515e3",
+        "android_client_info": {
+          "package_name": "com.example.chatappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399937982682-4dmoqlu7fa5fkeuf97friuiog0f6o5vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-PV-pry3fOnxifL_h8IZDmpqmWxCvzeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399937982682-4dmoqlu7fa5fkeuf97friuiog0f6o5vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399937982682:android:686c88ff878fdec31515e3",
+        "android_client_info": {
+          "package_name": "com.example.mychatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399937982682-4dmoqlu7fa5fkeuf97friuiog0f6o5vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-PV-pry3fOnxifL_h8IZDmpqmWxCvzeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399937982682-4dmoqlu7fa5fkeuf97friuiog0f6o5vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399937982682:android:b025adc728cec0e61515e3",
+        "android_client_info": {
+          "package_name": "com.example.twitterdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399937982682-4dmoqlu7fa5fkeuf97friuiog0f6o5vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-PV-pry3fOnxifL_h8IZDmpqmWxCvzeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399937982682-4dmoqlu7fa5fkeuf97friuiog0f6o5vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
