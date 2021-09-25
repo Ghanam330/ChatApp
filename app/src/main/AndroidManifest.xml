@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatAppFirebase">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeScreen.ChatActivity"
+            android:exported="true" />
+        <activity
             android:name=".Login.LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -28,15 +34,11 @@
             android:exported="true" />
         <activity
             android:name=".SplachSreen.Activity.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SplachSreen.Activity.SplachScreen"
             android:exported="true"
             android:noHistory="true" />
-
-
     </application>
 
 </manifest>

@@ -23,6 +23,14 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up)
 
         auth = FirebaseAuth.getInstance()
+        //check if user login then navigate to user screen
+        auth = FirebaseAuth.getInstance()
+        val intent = Intent(this@SignUpActivity, UserActivity::class.java)
+        if (auth!!.getCurrentUser() != null) {
+            startActivity(intent)
+            finish()
+            return
+        }
 
         btnSignUp.setOnClickListener {
             val userName = etName.text.toString()

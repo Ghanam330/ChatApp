@@ -49,12 +49,12 @@ class MainActivity : AppCompatActivity() {
         )
 
         adapter = OnBoardingAdapter(list!!)
-        var viewPager = findViewById<ViewPager2>(R.id.view_pager)
+        val viewPager = findViewById<ViewPager2>(R.id.view_pager)
         viewPager.adapter = adapter
-        var wormIndicator = findViewById<WormDotsIndicator>(R.id.indicator)
+        val wormIndicator = findViewById<WormDotsIndicator>(R.id.indicator)
         wormIndicator.setViewPager2(viewPager)
-        var btnNext = findViewById<Button>(R.id.btn_next)
-        var btnSkip = findViewById<TextView>(R.id.tv_skip)
+        val btnNext = findViewById<Button>(R.id.btn_next)
+        val btnSkip = findViewById<TextView>(R.id.tv_skip)
         btnNext.setOnClickListener {
             if (viewPager.currentItem + 1 < adapter!!.itemCount) {
                 viewPager.currentItem += 1
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             val ed: SharedPreferences.Editor = pref.edit()
             ed.putBoolean("activity_executed", true)
-            ed.commit()
+            ed.apply()
         }
     }
 }
