@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/drawable/btn_background.xml" value="0.14739583333333334" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/drawable/button_background.xml" value="0.2671794871794872" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/drawable/ic_send.xml" value="0.2671794871794872" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/drawable/item_left_side_background.xml" value="0.2671794871794872" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/drawable/item_right_side_background.xml" value="0.2671794871794872" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_User.xml" value="0.1" />
-        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_home.xml" value="0.2552083333333333" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_home_screen.xml" value="0.2324074074074074" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_login.xml" value="0.264" />
@@ -14,6 +18,8 @@
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_sign_up.xml" value="0.2515625" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/activity_user.xml" value="0.2" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/item_layout.xml" value="0.13125" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/item_left.xml" value="0.2552083333333333" />
+        <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/item_right.xml" value="0.2552083333333333" />
         <entry key="..\:/KotlinProject/ChatAppFirebase/app/src/main/res/layout/item_user.xml" value="0.264" />
       </map>
     </option>
