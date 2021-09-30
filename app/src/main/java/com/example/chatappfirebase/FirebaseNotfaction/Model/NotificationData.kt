@@ -1,4 +1,4 @@
-package com.example.chatappfirebase.HomeScreen.model
+package com.example.chatappfirebase.FirebaseNotfaction.Model
 
 data class NotificationData(
     var title:String,

@@ -3,6 +3,9 @@
     package="com.example.chatappfirebase">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <application
         android:allowBackup="true"
@@ -39,6 +42,16 @@
             android:name=".SplachSreen.Activity.SplachScreen"
             android:exported="true"
             android:noHistory="true" />
+
+        <service android:name=".FirebaseNotfaction.Firebase.FirebaseService"
+            android:permission="com.google.android.c2dm.permission.SEND">
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+
+        </service>
     </application>
 
 </manifest>
